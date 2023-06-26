@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taş Kağıt Makas Oyunu</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Taş Kağıt Makas Oyunu</h1>
+  
+  <div id="game">
+    <button class="choice-btn" onclick="play('rock')">
+      <img src="rock.png" alt="Taş">
+    </button>
+    <button class="choice-btn" onclick="play('paper')">
+      <img src="paper.png" alt="Kağıt">
+    </button>
+    <button class="choice-btn" onclick="play('scissors')">
+      <img src="scissors.png" alt="Makas">
+    </button>
+  </div>
+  
+  <h2 id="result"></h2>
+  
+  <script src="script.js"></script>
+</body>
+</html>
